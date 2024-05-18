@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="全部">
+        <menu>
+            <item
+                android:title="搜索"
+                android:id="@+id/my_navigation_0"
+                android:icon="@drawable/icon_find"
+
+                />
+
+
+
+        </menu>
+    </item>
+
+    <item android:title="其他">
+
+        <menu>
+
+
+            <item
+                android:id="@+id/my_navigation_1"
+                android:title="退出"
+                />
+        </menu>
+    </item>
+
+</menu>

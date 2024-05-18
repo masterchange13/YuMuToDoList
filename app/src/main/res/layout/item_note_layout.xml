@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+    <!--省略号在结尾-->
+    <!--单行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_noteContent"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="22dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxEms="1"
+            android:singleLine="true"
+            android:text="测试测试测试"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/layoutNoteTime"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="22dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_note_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.9"
+                android:gravity="center_vertical"
+                android:text="测试"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/img_clock"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="0.1"
+                 />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="18dp"
+            android:background="@android:color/holo_green_light" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="#FFF55030"
+        android:gravity="center"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="删除"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="entrySummaries" format="reference" />
+
+    <declare-styleable name="IjkListPreference">
+        <attr name="entrySummaries" />
+    </declare-styleable>
+
+    <declare-styleable name="XRefreshView">
+        <attr name="isHeightMatchParent" format="boolean" />
+        <attr name="isWidthMatchParent" format="boolean" />
+        <attr name="autoRefresh" format="boolean" />
+        <attr name="autoLoadMore" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="innerrect">
+        <attr name="inner_width" format="dimension"/>
+        <attr name="inner_height" format="dimension"/>
+        <attr name="inner_margintop" format="dimension" />
+        <attr name="inner_corner_color" format="color" />
+        <attr name="inner_corner_length" format="dimension" />
+        <attr name="inner_corner_width" format="dimension" />
+        <attr name="inner_scan_bitmap" format="reference" />
+        <attr name="inner_scan_speed" format="integer" />
+        <attr name="inner_scan_iscircle" format="boolean" />
+    </declare-styleable>
+</resources>
